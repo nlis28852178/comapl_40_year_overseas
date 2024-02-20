@@ -83,27 +83,33 @@ html {
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
+  .col-1 {width: 13.5%;}
+  .col-2 {width: 20%;}
+  .col-2-1 {width: 18%;}
+  .col-3 {width: 30%;}
+  .col-4 {width: 18%;}
+  .col-5 {width: 40%;}
   .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
+  .col-7 {width: 60%;}
   .col-8 {width: 66.66%;}
   .col-9 {width: 75%;}
   .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
+  .col-11 {width: 80%;}
   .col-12 {width: 100%;}
 }
 
-.max-1400{
+.max-1150{
   max-width:1150px;
   margin: 0 auto;
 }
 
-.max-1600{
-  max-width:1200px;
+.max-1250{
+  max-width:1250px;
+  margin: 0 auto;
+}
+
+.max-1440{
+  max-width:1500px;
   margin: 0 auto;
 }
 
@@ -122,13 +128,8 @@ html {
     height: auto;
     }
 
-table{
-  border-collapse:collapse;
-
-}
-
 .label-text1{
-  padding-left: 95px;
+  padding-left: 75px;
 }
 
 .label-text2{
@@ -136,5 +137,25 @@ table{
 }
 
 .label-text3{
-  padding-left: 80px;
+  padding-left: 30px;
+}
+
+table, td, th
+{
+	padding:10px;
+}
+
+th
+{
+	background-color:#4FA800;
+	color:white;
+}
+
+li
+{
+  font-size: 20px;
+}
+
+li::marker {
+  content: '💞 ';
 }
