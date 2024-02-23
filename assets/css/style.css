@@ -86,7 +86,7 @@ html {
   .col-1 {width: 13.5%;}
   .col-2 {width: 20%;}
   .col-2-1 {width: 18%;}
-  .col-3 {width: 30%;}
+  .col-3 {width: 25%;}
   .col-4 {width: 18%;}
   .col-5 {width: 40%;}
   .col-6 {width: 50%;}
@@ -107,6 +107,7 @@ html {
   max-width:1250px;
   margin: 0 auto;
 }
+
 
 .max-1440{
   max-width:1500px;
@@ -145,15 +146,11 @@ table, td, th
 	padding:10px;
 }
 
-th
-{
-	background-color:#4FA800;
-	color:white;
-}
 
 li
 {
   font-size: 20px;
+  padding-bottom: 10px;
 }
 
 li::marker {
